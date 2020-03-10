@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio Sesion CRISMO Autosport</title>
+    <link rel="stylesheet" href="css/Login.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><i class="fas fa-car-alt"></i> CRISMO autosport</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link disabled" href="#"
+              ><i class="fas fa-home"></i> Home</a
+            >
+            <a class="nav-item nav-link disabled" href="#"
+              ><i class="fas fa-shopping-cart"></i> Productos</a
+            >
+            <a class="nav-item nav-link disabled" href="#">Quienes Somos</a>
+            <a
+              class="nav-item nav-link active"
+              href="LogIn.html"
+              tabindex="-1"
+              aria-disabled="true"
+              ><i class="fas fa-sign-in-alt"></i>Inicio Sesion</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container my-3">
+      <div id="formSuccess" class="alert alert-warning" role="alert" style="display: none;">
+           Ya Puedes Ingresar a CRISMO Autosport.
+        </div>
+  
+  
+        <div id="formFail" class="alert alert-danger" role="alert" style="display: none;">
+           Usuario o Contraseña Incorrectas, No Puedes ingresar.
+        </div>
+  </div>
+    <section>
+      <div class="container" style="width: 50%; margin: auto;"></div>
+      <form action="index.html" method="POST" id="form" name="inicio" onsubmit="return validarInicio()" style="width: 40%; margin: auto; margin-top: 80px;">
+        <div class="form">
+          <h1>Inicio Sesion</h1>
+          <div class="grupo">
+            <input type="email" name="email" id="email" required /><span class="barra"></span>
+            <label for="">Email</label>
+          </div>
+
+          <div class="grupo">
+            <input type="password" name="password" id="password" required/><span
+              class="barra"
+            ></span>
+            <label for="">Password</label>
+          </div>
+
+          <button type="submit" style="margin: auto; " >Inicia Sesion</button>
+          <p class="warnings" id="warnings"></p>
+          
+          <span>o <a href="Registro.html">Registrate</a></span>
+        </div>
+      </form>
+    </div>
+    </section>
+
+  
+
+   
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/logIn.js"></script>
+  </body>
+</html>
