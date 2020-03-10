@@ -1,0 +1,97 @@
+.navbar-brand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.login {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contenedor {
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+}
+
+.productos {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.breadcrumb-itemactive {
+  color: black;
+}
+
+.card3 {
+  justify-content: center;
+  display: flex;
+}
+
+#carouselExampleInterval {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+#logos {
+  text-align: center;
+}
+
+.carousel-inner {
+  max-width: 100%;
+}
+
+.form {
+  text-align: center;
+}
+
+#jumbo {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.clientes {
+  width: 120px;
+  margin: 10px;
+}
+
+.logosCentrados > .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoKoo {
+  width: 30%;
+}
